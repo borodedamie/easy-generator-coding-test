@@ -1,0 +1,76 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.login,
+.register {
+  width: 350px;
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+.header h5 {
+  font-size: 1.5rem;
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+}
+
+.header p {
+  margin: 0;
+  padding: 0;
+  color: darkgray;
+  font-size: 0.8rem;
+}
+
+form {
+  margin-top: 1.2rem;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.input-group input {
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.submit-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.submit-button button {
+  color: white;
+  background-color: blue;
+  width: 100%;
+}
+
+.create-account {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.create-account p span {
+  color: blue;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  font-size: 0.6rem;
+}
